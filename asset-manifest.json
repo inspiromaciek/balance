@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/balance/static/css/main.b0ebf51b.chunk.css",
+    "main.js": "/balance/static/js/main.74611bb5.chunk.js",
+    "main.js.map": "/balance/static/js/main.74611bb5.chunk.js.map",
+    "runtime-main.js": "/balance/static/js/runtime-main.4aed1649.js",
+    "runtime-main.js.map": "/balance/static/js/runtime-main.4aed1649.js.map",
+    "static/js/2.20c7e5c3.chunk.js": "/balance/static/js/2.20c7e5c3.chunk.js",
+    "static/js/2.20c7e5c3.chunk.js.map": "/balance/static/js/2.20c7e5c3.chunk.js.map",
+    "index.html": "/balance/index.html",
+    "precache-manifest.20b667bcfdbf06ba1cb3b0e1aed06279.js": "/balance/precache-manifest.20b667bcfdbf06ba1cb3b0e1aed06279.js",
+    "service-worker.js": "/balance/service-worker.js",
+    "static/css/main.b0ebf51b.chunk.css.map": "/balance/static/css/main.b0ebf51b.chunk.css.map",
+    "static/js/2.20c7e5c3.chunk.js.LICENSE.txt": "/balance/static/js/2.20c7e5c3.chunk.js.LICENSE.txt",
+    "static/media/leg.png": "/balance/static/media/leg.1d4b3159.png",
+    "static/media/shelter.png": "/balance/static/media/shelter.433c6c1f.png",
+    "static/media/tree.png": "/balance/static/media/tree.a4be31eb.png",
+    "static/media/vacine.png": "/balance/static/media/vacine.92b66916.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4aed1649.js",
+    "static/js/2.20c7e5c3.chunk.js",
+    "static/css/main.b0ebf51b.chunk.css",
+    "static/js/main.74611bb5.chunk.js"
+  ]
+}

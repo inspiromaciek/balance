@@ -5,6 +5,8 @@ import tree from "../../asets/tree.png";
 import firstaid from "../../asets/firstaid.png";
 import polio from "../../asets/polio.png";
 import leg from "../../asets/leg.png";
+import book from "../../asets/book.png";
+
 
 export default class What extends Component {
   constructor(props) {
@@ -62,7 +64,27 @@ export default class What extends Component {
         adress: "UNICEF website",
         href: "https://www.market.unicefusa.org/inspired-gifts/polio-vaccines-to-protect-100-children/S359190/"
       });
-    } else if (this.state.costValue <= 200) {
+    } else if (this.state.costValue <= 100) {
+      console.log("bbb")
+      let randomNumber = Math.floor(Math.random() * (1 + 2)) + 1;
+    console.log("rn", randomNumber);
+
+    let array = new Array(parseInt(Number(this.state.costValue) / 5));
+
+    this.setState({
+      numberOf: array.length,
+      image: book,
+      text1: `${array.length} books from a local bookstore for yourself or for`,
+      text2: "of your friends",
+      info: "Buying books at local bookstores not only supports local businesses and allows the distribution of cultural goods, but can also help in raising funds for those in real need.",
+      adress: "OXFAM website",
+      href: "https://www.oxfam.org.uk/"
+    });
+
+    this.setState({
+      table: [...array],
+    });
+  } else if (this.state.costValue <= 200) {
         console.log("bbb")
         let randomNumber = Math.floor(Math.random() * (1 + 2)) + 1;
       console.log("rn", randomNumber);
@@ -128,7 +150,7 @@ export default class What extends Component {
       });
 
    
-  } else if (this.state.costValue <= 5000) {
+  } else if (this.state.costValue <= 50000) {
     console.log("bbb")
     let randomNumber = Math.floor(Math.random() * (1 + 2)) + 1;
   console.log("rn", randomNumber);
@@ -184,6 +206,7 @@ export default class What extends Component {
             })}
             <div><h2><br/><q>{this.state.info}</q></h2></div>
             <div><h3>more info at: <a className="a" href={this.state.href}>{this.state.adress}</a></h3></div>
+            <div><h3><br/><br/><br/><a className="ainvert" href="../">Check once again...</a></h3></div>
           </div>
         ) : (
           <form onSubmit={this.handleSubmit} className="form">

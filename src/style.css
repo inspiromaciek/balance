@@ -159,6 +159,18 @@ label {
     color: white;
 }
 
+.ainvert {
+    font-family: 'Lobster', cursive;
+    font-weight: 100;
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+}
+
+.ainvert:hover {
+    color: black;
+}
+
 h3 {
     color: white
 }

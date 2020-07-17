@@ -114,7 +114,7 @@ export default class What extends Component {
       this.setState({
         numberOf: array.length,
         image: shelter,
-        text1: `${array.length} tarpaulins to shelter `,
+        text1: `${array.length} tarpaulins too shelter `,
         text2: "families",
         info: "In times of disaster, this tarp made of heavy-duty plastic sheeting can help protect a family from the elements. This large sheet can provide temporary cover and serve as a windshield or groundsheet. These tarps are provided to Child-Friendly Spaces and also used to wrap around temporary latrines",
         adress: "UNICEF website",
